@@ -37,9 +37,9 @@ export class UTMBuilder extends Component {
       utm_options: {
         sources: ['google', 'facebook', 'newsletter'],
         mediums: ['cpc', 'banner', 'email'],
-        names: ['name1', 'name2'],
-        terms: ['term1', 'term2'],
-        content: ['']
+        names: [],
+        terms: [],
+        content: []
       },
       utm_values: {
         urls: ['http://anancial.com'],
