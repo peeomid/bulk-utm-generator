@@ -167,6 +167,9 @@ export class UTMBuilder extends Component {
           handleInput={this.handleInput}
           generateText={this.generateTextValues} />
         <div className="spacer"></div>
+        <div>
+          <p>For feedback/request, please create an issue in this <a href="https://github.com/peeomid/bulk-utm-generator">repo</a> or dm me on <a href="https://twitter.com/peeomid">Twitter</a> </p>
+        </div>
         <UTMTable
           values={this.state.utm_values}
           generateValues={this.generateValues}/>
