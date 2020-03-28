@@ -2,6 +2,11 @@ body {
   background-color: #282c34;
   color: white; 
 }
+
+a {
+  color: #0071BC;
+}
+
 .App {
   text-align: center;
   padding: 1em;
